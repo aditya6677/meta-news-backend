@@ -1,0 +1,19 @@
+{
+  "name": "meta-news-backend",
+  "version": "1.0.0",
+  "description": "backend for meta news project",
+  "main": "server.js",
+  "scripts": {
+    "start": "fuser -k 7676/tcp && nodemon server.js"
+  },
+  "author": "aditya76",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "html-entities": "^1.2.1",
+    "method-override": "^3.0.0",
+    "rss-parser": "^3.6.2"
+  }
+}
